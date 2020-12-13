@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DevOps on A Hugo website</title>
+    <link>/categories/devops/</link>
+    <description>Recent content in DevOps on A Hugo website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 12 Dec 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/devops/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Deploying R REST API in production</title>
+      <link>/2020/12/12/deploying-r-api-in-production/</link>
+      <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/12/12/deploying-r-api-in-production/</guid>
+      <description>Back in 2018, I had to deploy an R API on kubernetes. It lead to a quick presentation at R à Québec 2019 which is still available here. Since then, I deployed half a dozen more solutions while refining the deployment pipeline. In my opinion, R is a vary viable solution has the stack stays the same through the whole data science cycle. This is more or less the workflow I use.</description>
+    </item>
+    
+  </channel>
+</rss>
