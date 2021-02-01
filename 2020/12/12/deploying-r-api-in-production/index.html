@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Hugo 0.74.2" />
+<meta name="generator" content="Hugo 0.80.0" />
 
 
 <title>Deploying R REST API in production - neoxone.com</title>
@@ -141,7 +141,7 @@ have been promised for 3 years from the vendor.</p>
 <hr />
 <ol>
 <li id="fn1"><p>I became a regular contributor after using it.<a href="#fnref1" class="footnote-back">↩︎</a></p></li>
-<li id="fn2"><p>The shared image is built from <code>rocker/r-base:latest</code>.<a href="#fnref2" class="footnote-back">↩︎</a></p></li>
+<li id="fn2"><p>The shared image is built from <del><code>rocker/r-base:latest</code></del><code>rstudio/r-base</code> to leverage precompiled linux binairies from RStudio public package manager .<a href="#fnref2" class="footnote-back">↩︎</a></p></li>
 <li id="fn3"><p>For our particular workloads, mostly <code>data.table</code> manipulation and <code>xgboost</code> models with some geo transformation from <code>sf</code>, we set <code>OMP_NUM_THREADS</code> to 1. Forking had a 4x average response time performance cost.<a href="#fnref3" class="footnote-back">↩︎</a></p></li>
 <li id="fn4"><p><a href="https://github.com/tmobile/loadtest">loadtest</a><a href="#fnref4" class="footnote-back">↩︎</a></p></li>
 </ol>

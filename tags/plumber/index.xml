@@ -6,10 +6,16 @@
     <description>Recent content in plumber on neoxone.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 12 Dec 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/plumber/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Sun, 31 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/plumber/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Plumber v1.0 Showcase (Part 1)</title>
+      <link>/2021/01/31/plumber-v1-0-showcase-part-1/</link>
+      <pubDate>Sun, 31 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/2021/01/31/plumber-v1-0-showcase-part-1/</guid>
+      <description>When I discovered plumber, I fell in love with its versatility. With version 1.0, it is even more versatile and modular than before. Since I had the chance to contribute to the project, I wanted to share some of the new features that made it into this release.
+Part 1New annotation @plumberNew tags were introduced in 1.0. @plumber allows users to interact with the router object during its creation process.</description>
+    </item>
     
     <item>
       <title>Deploying R REST API in production</title>
