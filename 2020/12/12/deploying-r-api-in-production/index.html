@@ -72,11 +72,9 @@
     <div class="article-content">
       
 <script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
-<link href="/rmarkdown-libs/anchor-sections/anchor-sections.css" rel="stylesheet" />
-<script src="/rmarkdown-libs/anchor-sections/anchor-sections.js"></script>
 
 
-<p>Back in 2018, I had to deploy an R API on kubernetes. It lead to a quick presentation at <a href="http://raquebec.ulaval.ca/2019/"><em>R à Québec 2019</em></a> which is still available <a href="https://rprodraqc19.neoxone.com">here</a>. Since then, I deployed half a dozen more solutions while refining the deployment pipeline. In my opinion, <code>R</code> is a vary viable solution has the stack stays the same through the whole data science cycle. This is more or less the workflow I use.</p>
+<p>Back in 2018, I had to deploy an R API on kubernetes. It lead to a quick presentation at <a href="http://raquebec.ulaval.ca/2019/"><em>R à Québec 2019</em></a> which is still available <a href="https://rprodraqc19.neoxone.com">here</a>. Since then, I deployed half a dozen more solutions while refining the deployment pipeline. In my opinion, <code>R</code> is a vary viable solution as the stack stays the same through the whole data science cycle. This is more or less the workflow I use.</p>
 <div id="organize-code" class="section level3">
 <h3>Organize code</h3>
 <p>The first thing I do is encapsulate feature engineering, prediction code and artifacts in an <code>R</code> package. Compared to regular scripts, packages offer better dependencies management and better unit test integration with <code>testthat</code>. Plus they can be reused by other component more easily.</p>

@@ -23,7 +23,7 @@ Part 1New annotation @plumberNew tags were introduced in 1.0. @plumber allows 
       <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>/2020/12/12/deploying-r-api-in-production/</guid>
-      <description>Back in 2018, I had to deploy an R API on kubernetes. It lead to a quick presentation at R à Québec 2019 which is still available here. Since then, I deployed half a dozen more solutions while refining the deployment pipeline. In my opinion, R is a vary viable solution has the stack stays the same through the whole data science cycle. This is more or less the workflow I use.</description>
+      <description>Back in 2018, I had to deploy an R API on kubernetes. It lead to a quick presentation at R à Québec 2019 which is still available here. Since then, I deployed half a dozen more solutions while refining the deployment pipeline. In my opinion, R is a vary viable solution as the stack stays the same through the whole data science cycle. This is more or less the workflow I use.</description>
     </item>
     
   </channel>
