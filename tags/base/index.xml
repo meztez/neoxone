@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>base on neoxone.com</title>
+    <link>/tags/base/</link>
+    <description>Recent content in base on neoxone.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 28 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/base/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>12 basic tips for R Code in production</title>
+      <link>/2021/09/28/r-basic-tips-for-production-code/</link>
+      <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/2021/09/28/r-basic-tips-for-production-code/</guid>
+      <description>h3 { margin-left: -24px; }Disclaimer : No need to follow all the rules, tips and tricks you read.
+You are still the best judge when it comes to writing code. Context is a huge factor and you should not rely on any particular advice. Start by writing something that works. It does not need to be perfect.
+1. Microbench for performance critical code.Every decision is a trade off in production.</description>
+    </item>
+    
+  </channel>
+</rss>
