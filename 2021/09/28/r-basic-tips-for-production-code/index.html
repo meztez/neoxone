@@ -6,8 +6,8 @@
 <meta name="generator" content="Hugo 0.82.0" />
 
 
-<title>12 basic tips for R Code in production - neoxone.com</title>
-<meta property="og:title" content="12 basic tips for R Code in production - neoxone.com">
+<title>R Basic Tips for Production Code - neoxone.com</title>
+<meta property="og:title" content="R Basic Tips for Production Code - neoxone.com">
 
 
   <link href='/favicon.ico' rel='icon' type='image/x-icon'/>
@@ -65,7 +65,7 @@
     <span class="article-duration">6 min read</span>
     
 
-    <h1 class="article-title">12 basic tips for R Code in production</h1>
+    <h1 class="article-title">R Basic Tips for Production Code</h1>
 
     
     <span class="article-date">2021-09-28</span>
@@ -89,9 +89,9 @@ h3 { margin-left: -24px; }
 <h3>2. Use argument names in function call with more than one argument.</h3>
 <p>Clearly defining argument values instead of relying on position has two clear benefits : readability and futureproofness. First, it will eliminate some guesswork for the people reading your code. Second, if the function call change in the future, it will reduce the amount of errors due to an expected argument position.</p>
 <pre class="r"><code>sample(1:9, 15, TRUE)</code></pre>
-<pre><code>##  [1] 3 7 6 7 2 2 8 6 7 4 2 8 6 2 1</code></pre>
+<pre><code>##  [1] 5 4 1 2 4 3 8 5 3 8 6 9 3 9 8</code></pre>
 <pre class="r"><code>sample(x = 1:9, size = 15, replace = TRUE)</code></pre>
-<pre><code>##  [1] 4 2 1 5 7 9 9 5 3 1 8 2 7 2 4</code></pre>
+<pre><code>##  [1] 6 8 9 1 4 1 9 7 5 2 6 6 4 6 8</code></pre>
 <p>CRAN R package typically do not change their function calls argument position. In any case, better safe than sorry.</p>
 </div>
 <div id="subset-with-instead-of-." class="section level3">
